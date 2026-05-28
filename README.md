@@ -27,7 +27,7 @@ bash scripts/setup_vrcd_env.sh
 conda activate vrcd
 ```
 
-The setup script creates a Python 3.11 environment and installs PyTorch with CUDA 12.4 wheels.
+The setup script configures a Python 3.11 environment running on CUDA 12.4 with the required Python packages for inference.
 
 ## Run Inference
 
@@ -49,8 +49,8 @@ Important parameters:
 - `--img-path`: input image path.
 - `--len`: maximum generated answer length.
 - `--step-ratio`: diffusion decoding ratio. With `0.25`, the model predicts 4 tokens per step.
-- `--alpha`: VRCD visual-redundancy multiplier strength.
-- `--window-lambda`: candidate window multiplier used by VRCD.
+- `--alpha`: visual-redundancy penalty strength.
+- `--window-lambda`: scale factor for expanding the candidate window relative to the number of selected tokens.
 - `--shift`: shift schedule value. With `1.0`, each diffusion step decodes the same number of tokens.
 - `--temperature`: sampling temperature. `0.0` uses deterministic decoding.
 
