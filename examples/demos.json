@@ -1,0 +1,52 @@
+{
+  "demos": [
+    {
+      "id": "objects",
+      "image": "examples/objects.png",
+      "question": "What is the shape of the small yellow rubber thing that is in front of the large yellow metal ball that is behind the small matte object?",
+      "choices": {
+        "A": "sphere",
+        "B": "cylinder",
+        "C": "cube"
+      },
+      "answer": "C",
+      "answer_text": "cube"
+    },
+    {
+      "id": "apple",
+      "image": "examples/apple.png",
+      "question": "Are the two apples in the picture the same color?",
+      "choices": {
+        "A": "Not the same",
+        "B": "Can't judge",
+        "C": "same"
+      },
+      "answer": "A",
+      "answer_text": "Not the same"
+    },
+    {
+      "id": "sliders",
+      "image": "examples/sliders.png",
+      "question": "There are two physical models in the picture, are the two square sliders the same size?",
+      "choices": {
+        "A": "same",
+        "B": "Not the same",
+        "C": "Can't judge"
+      },
+      "answer": "B",
+      "answer_text": "Not the same"
+    },
+    {
+      "id": "modules",
+      "image": "examples/modules.png",
+      "question": "In this comparison diagram, are the upper and lower modules the same shape?",
+      "choices": {
+        "A": "same",
+        "B": "Not the same",
+        "C": "Can't judge"
+      },
+      "answer": "A",
+      "answer_text": "same"
+    }
+  ]
+}
