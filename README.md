@@ -5,6 +5,10 @@
   <a href="https://github.com/infiniteYuanyl/VRCD"><img src="https://img.shields.io/badge/Code-GitHub-181717.svg" alt="Code"></a>
 </p>
 
+## 🔥 News
+
+- **[2026.09.24]** 🎉🎉 Our paper [*Visual-Redundancy-Controlled Parallel Decoding for Diffusion-Based Multimodal Large Language Models*](https://arxiv.org/abs/2605.25820) has been accepted to **NeurIPS 2026**! 🥳
+
 <p align="center">
   <img src="assets/intro.png" width="100%" alt="VRCD overview">
 </p>
